@@ -1,3 +1,4 @@
+#pinging from python
 import platform
 import os
 
