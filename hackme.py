@@ -13,7 +13,7 @@ def create_user_info():
 def save_user_info(user_info):
     with open("hackme.txt", "w") as file:
         for key, value in user_info.items():
-            file.write(f"{key.capitalize().replace('_', ' ')}: {value}\n")
+            file.write(f"{key.upper().replace('_', ' ')}: {value.capitalize()}\n")
 
 # Main program
 def main():
